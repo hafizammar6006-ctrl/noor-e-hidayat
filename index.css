@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+  }
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  }
+  .font-sans-en {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Quranic aesthetic scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(28, 25, 23, 0.7);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.7);
+}
+
+/* Audio wave animation */
+@keyframes wave-bounce {
+  0%, 100% { height: 4px; }
+  50% { height: 18px; }
+}
+
+.animate-wave-1 {
+  animation: wave-bounce 0.8s ease-in-out infinite;
+}
+.animate-wave-2 {
+  animation: wave-bounce 0.8s ease-in-out 0.2s infinite;
+}
+.animate-wave-3 {
+  animation: wave-bounce 0.8s ease-in-out 0.4s infinite;
+}
+.animate-wave-4 {
+  animation: wave-bounce 0.8s ease-in-out 0.15s infinite;
+}

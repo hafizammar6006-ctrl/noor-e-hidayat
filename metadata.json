@@ -1,0 +1,7 @@
+{g
+
+  "name": "نورِ ہدایت - قرآن کریم",
+  "description": "مستند قراء کی مکمل سورت اور انفرادی آیات کی تلاوت، آف لائن ڈاؤن لوڈ، اردو ترجمہ اور مکمل آڈیو پلیئر کے ساتھ قرآن پاک کا جامع پلیٹ فارم۔",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
